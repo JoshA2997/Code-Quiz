@@ -1,1 +1,107 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+    box-sizing: border-box;
+}
 
+h2{
+    margin-top: 5px;
+}
+
+button{
+    display: inline-block;
+    background-color: blueviolet;
+    color: cornsilk;
+    border-radius: 10px;
+    border: 5px cornsilk;
+    margin-top: 5px;
+    padding: 15px;
+    width: 150%;
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px blue;
+}
+
+li{
+    list-style-type: none;
+    text-shadow: 2px 2px 2px black;
+    color: whitesmoke;
+    padding-bottom: 2px;
+}
+
+p{
+    text-shadow: 1px 1px whitesmoke;
+    color: black;
+}
+
+.nav{
+    width: 150%;
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+    margin: auto;
+}
+
+#mainpage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#quiz{
+    display: none;
+}
+#time{
+    text-align: center;
+    font-size: larger;
+}
+#result{
+    display: none;
+}
+#game{
+    text-align: center;
+    flex-direction: row;
+    display: none;
+    align-items: center;
+}
+
+#highscore{
+    border: groove 5px;
+}
+#scorebox{
+    height: 120%;
+    width: 120%;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#scorepg{
+    display: none;
+    width: 50%;
+    border: solid yellow;
+    background-color: whitesmoke;
+}
+#scorehd{
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    justify-content: space-evenly;
+}
+#end-GO{
+    display: none;
+}
+#final{
+    font-weight: bolder;
+    font-size: larger;
+}
+#sinitials{
+    display: inline-block;
+    font-weight: bolder;
+}
+#initials{
+    margin: 110%;
+    height: 80%;
+}
