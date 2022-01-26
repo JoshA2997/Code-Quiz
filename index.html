@@ -11,18 +11,45 @@
 
   <body>
       <div class = "nav">
-        <span id="scores">View Scores</span>
-        <span id="time">Time: 0</span>
-      </div>
+        <div id="mainpage">
+            <h1>Please try to answer the multiple choice JavaScript questions</h1>
+            <h1>Wrong Answers will deduct points from score & time so choose wisely!</h1>
 
-      <div class="container">
-          <div class="row">
-            <div class="A"></div>
-            <div id="content" class="B"></div>
-          </div>
-      </div>
+            <button id="start">START QUIZ</button>
+            <button id="startscore" onclick="score">High Scores</button>
+        </div>
 
+        <div id="quiz">
+            <div id="time">Time Left</div>
+                <button id="A" onclick="answer('A')">A</button>
+                <button id="B" onclick="answer('B')">B</button>
+                <button id="C" onclick="answer('C')">C</button>
+                <button id="D" onclick="answer('D')">D</button>
+            <div id="result"></div>
+        </div>
+
+        <div id="game">
+            <div id="final"></div>
+            <input type="text" size="25" placeholder="Type Initials Here" name="initials" id="initials"/>
+            <button id="submit">Submit Final Score</button>
+        </div>
+
+        <div id="highscore">
+            <div id="scorepg">
+                <div id="scorehd">
+                    <h2>Player Initials</h2>
+                    <h2>Score</h2>
+                </div>
+                <div id="sinitials"></div>
+                <div id="highestScore"></div>
+            </div>
+            <div id="end-GO">
+                <button id="restart" onclick="restartQuiz()">Restart Challenge</button>
+                <button id="clearScore" onclick="clearScore">Clear Scores</button>
+            </div>
+        </div>
+      </div>
+      
       <script src="/assets/script.js"></script>
   </body>
-  
 </html>
