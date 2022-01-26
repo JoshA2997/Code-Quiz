@@ -18,3 +18,63 @@ var gameResults = document.getElementById("results");
 var finalScore = document.getElementById("final");
 var scoreInitials = document.getElementById("sinitials");
 var Questions = document.getElementById("qBank");
+
+//Quiz Question Bank
+var questBank =[{
+        question: "Temp Question?",
+        optA: "A----",
+        optB: "B----",
+        optC: "C----",
+        optD: "D----",
+        Answer: "A"
+    },
+
+    {
+        question: "Temp Question?",
+        optA: "A----",
+        optB: "B----",
+        optC: "C----",
+        optD: "D----",
+        Answer: "B"
+        },
+    {
+        question: "Temp Question?",
+        optA: "A----",
+        optB: "B----",
+        optC: "C----",
+        optD: "D----",
+        Answer: "C"
+        },
+    {
+        question: "Temp Question?",
+        optA: "A----",
+        optB: "B----",
+        optC: "C----",
+        optD: "D----",
+        Answer: "D"
+        },    
+    {
+        question: "Temp Question?",
+        optA: "A----",
+        optB: "B----",
+        optC: "C----",
+        optD: "D----",
+        Answer: "A"
+        },
+    {
+        question: "Temp Question?",
+        optA: "A----",
+        optB: "B----",
+        optC: "C----",
+        optD: "D----",
+        Answer: "B"
+        },
+    {
+        question: "Temp Question?",
+        optA: "A----",
+        optB: "B----",
+        optC: "C----",
+        optD: "D----",
+        Answer: "C"
+        },    
+];
